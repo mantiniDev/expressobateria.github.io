@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.construction-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.construction-icon {
+    font-size: 5rem;
+    color: #6c757d;
+}
+
+.construction-message {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #343a40;
+}
