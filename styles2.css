@@ -9,8 +9,11 @@ body {
 
 .hero-section {
     background-color: #f8f9fa;
+    padding: 15px;
 }
-
+.text-justify {
+  text-align: justify;
+}
 .hero-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -52,6 +55,12 @@ footer p {
     margin: 0;
 }
 
+section {
+  padding: 0px;
+}
+
+
+
 /* __________________ mobile __________________*/
 
 /*______________________________________________________________________________mobile */
@@ -88,10 +97,33 @@ footer p {
       top: 150px;
     }
 
+    #imgBaterias {
+      padding: 20px;
+    }
+
   }
 
   /* _________________direitos________________*/
   .mantini {
     font-family: 'Orbitron', regular;
     text-decoration: none;
+    color:black;
   } 
+
+  /* ______________ botao whatsapp________*/
+  /* Estilos personalizados para o botão */
+  .bg-green {
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    border-color: #25D366;
+    color: white;
+}
+
+.bg-green:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    border-color: #128C7E;
+}
+
+/* Ajustar o tamanho do ícone */
+.whatsapp-icon {
+    font-size: 24px; /* Tamanho do ícone */
+}

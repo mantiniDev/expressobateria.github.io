@@ -1,57 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+/* Custom Styles */
 body {
+    font-family: Roboto;
+}
+
+.hero-section {
     background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
+    padding: 15px;
+}
+.text-justify {
+  text-align: justify;
+}
+.hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.construction-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.construction-logo {
-    max-width: 150px; /* Tamanho máximo da imagem */
-    width: 100%; /* Responsivo */
-    height: auto; /* Mantém a proporção */
-    margin-bottom: 20px; /* Espaço entre a imagem e o ícone */
-}
-
-.construction-icon {
-    font-size: 5rem;
-    color: #6c757d;
-    margin-bottom: 20px; /* Espaço entre o ícone e o texto */
-}
-
-.construction-message {
-    font-size: 2rem;
-    color: #343a40;
-    margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
-}
-
-p {
+.hero-section p {
     font-size: 1.2rem;
-    color: #6c757d;
+    margin-bottom: 2rem;
 }
 
-/* Estilos para mobile */
+.hero-section img {
+    border-radius: 10px;
+}
+
+#servicos {
+    background-color: #fff;
+}
+
+#servicos h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#servicos h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#servicos p {
+    font-size: roboto;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    font: roboto;
+    margin: 0;
+}
+
+section {
+  padding: 0px;
+}
+
+
+
+/* __________________ mobile __________________*/
+
+/*______________________________________________________________________________mobile */
+
 @media (max-width: 768px) {
-    .construction-logo {
-        max-width: 100px; /* Tamanho menor para mobile */
+
+    header {
+      padding: 0px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-item {
+      width: 100%;
+      color: #fff0cc;
+    }
+  
+    .navbar-nav .nav-item a:hover {
+      color: #3c586c;
+    }
+  
+    #menu {
+      position: absolute;
+      left: 320px;
+      /* Ajuste o valor conforme necessário */
+      top: 150px;
     }
 
-    .construction-icon {
-        font-size: 3rem; /* Ícone menor para mobile */
+    #imgBaterias {
+      padding: 20px;
     }
 
-    .construction-message {
-        font-size: 1.5rem; /* Título menor para mobile */
-    }
+  }
 
-    p {
-        font-size: 1rem; /* Texto menor para mobile */
-    }
+  /* _________________direitos________________*/
+  .mantini {
+    font-family: 'Orbitron', regular;
+    text-decoration: none;
+    color:black;
+  } 
+
+  /* ______________ botao whatsapp________*/
+  /* Estilos personalizados para o botão */
+  .bg-green {
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    border-color: #25D366;
+    color: white;
+}
+
+.bg-green:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    border-color: #128C7E;
+}
+
+/* Ajustar o tamanho do ícone */
+.whatsapp-icon {
+    font-size: 24px; /* Tamanho do ícone */
 }

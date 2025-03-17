@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expresso Baterias RJ</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Ícones do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- CSS Externo -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles2.css">
+    <!-- icones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="construction-container">
-        <div>
-            <!-- Imagem responsiva -->
-            <img src="img/IMG-20250312-WA0006.jpg" alt="Logo do Site" class="construction-logo">
-            <!-- Ícone de construção -->
-            <h1 class="construction-message">Página em Construção</h1>
-            <p>Estamos trabalhando duro para trazer algo incrível para você. Volte em breve!</p>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <!-- Imagem à Esquerda -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/IMG-20250312-WA0006.jpg" alt="Imagem" width="300" height="300"
+                    class="d-inline-block align-middle">
+            </a>
+
+            <!-- Botão de Toggle para Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links de Navegação à Direita -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina1">PROMOÇÕES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina2">QUEM SOMOS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-dark text-white y-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p>Oferecemos as melhores soluções em baterias!</p>
+                    <p>Em Mesquita e Região.</p>
+                    <p>Conte com nossa assistência técnica especializada.</p>
+                    <img src="assets/img/credit_card_16dp_FFFF55_FILL0_wght400_GRAD0_opsz20.png" alt="pay">
+                    <p>Até 6x Sem juros</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/img/timer_16dp_FFFF55_FILL0_wght400_GRAD0_opsz20.png" alt="timer">
+                    <p>Receba sua bateria em até 50 minutos</p>
+                    <img src="assets/img/delivery_truck_speed_16dp_FFFF55_FILL0_wght400_GRAD0_opsz20.png" alt="truck">
+                    <p>Entrega e Instalação Grátis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Serviços Section -->
+    <section id="servicos" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Produtos</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <br>
+                    <img src="assets/img/moura-60ah.webp" alt="Bateria para Carro" class="img-fluid mb-3">
+                    <h3>Baterias Moura</h3>
+                    <p>Bateria de alta performance.</p>
+                    <a href="https://wa.me/5521971314845=Olá, quero comprar uma bateria. Pode me ajudar?" target="_blank" class="btn btn-primary bg-green">
+                        <i class="fab fa-whatsapp whatsapp-icon"></i> COMPRAR
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <br>
+                    <img id="imgBaterias" src="assets/img/zetta2-3.webp" alt="Bateria para Moto" class="img-fluid mb-3">
+                    <h3>Baterias Zetta</h3>
+                    <p>Bateria de alta performance.</p>
+                    <a href="https://wa.me/5521971314845" target="_blank" class="btn btn-primary bg-green">
+                        <i class="fab fa-whatsapp whatsapp-icon"></i> COMPRAR
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <br>
+                    <img src="assets/img/compos-flexpower.webp" alt="Bateria para Moto" class="img-fluid mb-3">
+                    <h3>Baterias Flex Power</h3>
+                    <p>Bateria de alta performance.</p>
+                    <a href="https://wa.me/5521971314845" target="_blank" class="btn btn-primary bg-green">
+                        <i class="fab fa-whatsapp whatsapp-icon"></i> COMPRAR
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warning text-black text-center py-3">
+        <div class="container">
+            <p>Rua Icarai, nº 202, Chatuba, Mesquita - RJ</p>
+            <br>
+            <p>&copy; 2024 Expresso Baterias RJ.</p>
+            <p>Todos os direitos reservados.</p>
+            <a class="mantini" href="http://www.mantini.app.br">mantini.app</a>
+        </div>
+    </footer>
+
 
     <!-- Bootstrap JS e dependências -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
