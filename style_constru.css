@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.construction-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.construction-logo {
+    max-width: 150px; /* Tamanho máximo da imagem */
+    width: 100%; /* Responsivo */
+    height: auto; /* Mantém a proporção */
+    margin-bottom: 20px; /* Espaço entre a imagem e o ícone */
+}
+
+.construction-icon {
+    font-size: 5rem;
+    color: #6c757d;
+    margin-bottom: 20px; /* Espaço entre o ícone e o texto */
+}
+
+.construction-message {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Estilos para mobile */
+@media (max-width: 768px) {
+    .construction-logo {
+        max-width: 100px; /* Tamanho menor para mobile */
+    }
+
+    .construction-icon {
+        font-size: 3rem; /* Ícone menor para mobile */
+    }
+
+    .construction-message {
+        font-size: 1.5rem; /* Título menor para mobile */
+    }
+
+    p {
+        font-size: 1rem; /* Texto menor para mobile */
+    }
+}
